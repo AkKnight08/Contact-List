@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(196, 196, 235);
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#ph {
+    font-size: 2rem;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+#list ul {
+    width: auto;
+    min-width: 18rem;
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.2rem;
+}
+
+#list li p {
+    margin: 0;
+}
+
+#d{
+    text-align: left;
+    width:45%;
+}
+#de {
+    width: 45%;
+    background-color: aliceblue;
+    border-radius: 0.1rem;
+    text-align: center;
+    color: black;
+}
+#list ul li {
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 194, 240);
+    margin-bottom: 3px;
+    padding:0.4rem;
+    height: 1.2rem;
+    color: rgb(238, 249, 255);
+    font-weight: bold;
+}
+
+#list ul li:hover {
+    background-color: rgb(88, 83, 83);
+    color: rgb(227, 151, 50);
+}
+
+form input {
+    color: black;
+    background-color: azure;
+    padding: 5px;
+    width: 8rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: bold;
+}
+
+form button {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 0.2rem;
+}
